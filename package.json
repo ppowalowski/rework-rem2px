@@ -1,0 +1,47 @@
+{
+  "name": "rework-rem2px",
+  "description": "Convert rem unit to px for old IE versions.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nfroidure/rework-rem2px",
+  "author": {
+    "name": "Nicolas Froidure",
+    "url": "http://www.insertafter.com/blog.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nfroidure/rework-rem2px.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nfroidure/rework-rem2px/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nfroidure/rework-rem2px/blob/master/LICENSE"
+    }
+  ],
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests/*.mocha.js",
+    "coveralls": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- tests/*.mocha.js -R spec -t 5000 && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "cover": "./node_modules/istanbul/lib/cli.js cover --report html ./node_modules/mocha/bin/_mocha -- tests/*.mocha.js -R spec -t 5000"
+  },
+  "keywords": [
+    "rework",
+    "css",
+    "rem"
+  ],
+  "dependencies": {
+    "rework-visit": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "mocha-lcov-reporter": "0.0.1",
+    "coveralls": "~2.7.1",
+    "istanbul": "~0.2.4",
+    "rework": "^0.20.2"
+  }
+}
