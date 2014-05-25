@@ -1,7 +1,8 @@
 # rework-rem2px
 
 [Rework](https://github.com/visionmedia/rework) plugin that converts rem units
-to pixel ones.
+to pixel ones for creating
+ [CSS matching IE8 specifically](http://www.insertafter.com/blog-match_ie8_with_gulp_and_rework.html).
 
 [![NPM version](https://badge.fury.io/js/rework-rem2px.png)](https://npmjs.org/package/rework-rem2px) [![Build status](https://secure.travis-ci.org/nfroidure/rework-rem2px.png)](https://travis-ci.org/nfroidure/rework-rem2px) [![Dependency Status](https://david-dm.org/nfroidure/rework-rem2px.png)](https://david-dm.org/nfroidure/rework-rem2px) [![devDependency Status](https://david-dm.org/nfroidure/rework-rem2px/dev-status.png)](https://david-dm.org/nfroidure/rework-rem2px#info=devDependencies) [![Coverage Status](https://coveralls.io/repos/nfroidure/rework-rem2px/badge.png?branch=master)](https://coveralls.io/r/nfroidure/rework-rem2px?branch=master) [![Code Climate](https://codeclimate.com/github/nfroidure/rework-rem2px.png)](https://codeclimate.com/github/nfroidure/rework-rem2px)
 
@@ -30,6 +31,14 @@ Yields:
   // Says rework to use rem2px with 16px for 1rem
   rework(css).use(rem2px(16));
 ```
+
+# rework-rem2px vs rework-rem-fallback
+
+If you plan to create a totally different CSS stylesheet for IE<=8 that you
+ will integrate with conditionnal comment, use this module.
+
+If you just want to keep the same stylesheet for every browsers, use
+ [rework-rem-fallback](https://www.npmjs.org/package/rework-rem-fallback).
 
 ## The MIT License (MIT)
 
