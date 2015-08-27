@@ -4,8 +4,7 @@
 to pixel ones for creating
  [CSS matching IE8 specifically](http://www.insertafter.com/blog-match_ie8_with_gulp_and_rework.html).
 
-[![NPM version](https://badge.fury.io/js/rework-rem2px.png)](https://npmjs.org/package/rework-rem2px) [![Build status](https://secure.travis-ci.org/nfroidure/rework-rem2px.png)](https://travis-ci.org/nfroidure/rework-rem2px) [![Dependency Status](https://david-dm.org/nfroidure/rework-rem2px.png)](https://david-dm.org/nfroidure/rework-rem2px) [![devDependency Status](https://david-dm.org/nfroidure/rework-rem2px/dev-status.png)](https://david-dm.org/nfroidure/rework-rem2px#info=devDependencies) [![Coverage Status](https://coveralls.io/repos/nfroidure/rework-rem2px/badge.png?branch=master)](https://coveralls.io/r/nfroidure/rework-rem2px?branch=master) [![Code Climate](https://codeclimate.com/github/nfroidure/rework-rem2px.png)](https://codeclimate.com/github/nfroidure/rework-rem2px)
-
+[![NPM version](https://badge.fury.io/js/rework-rem2px.png)](https://npmjs.org/package/rework-rem2px) [![Build status](https://secure.travis-ci.org/ppowalowski/rework-rem2px.png)](https://travis-ci.org/ppowalowski/rework-rem2px) [![Dependency Status](https://david-dm.org/ppowalowski/rework-rem2px.png)](https://david-dm.org/ppowalowski/rework-rem2px) [![devDependency Status](https://david-dm.org/ppowalowski/rework-rem2px/dev-status.png)](https://david-dm.org/ppowalowski/rework-rem2px#info=devDependencies) 
 ## Example
 
 ```css
